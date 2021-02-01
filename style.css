@@ -26,3 +26,43 @@ ul li a {
 #contact-section {
   background-color: deepskyblue;
 }
+
+.hov {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+}
+
+.hov:hover {
+  background-color: red;
+}
+.cld .child:first-child {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.cld .child:last-child {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.peso .peso-el:first-child::before {
+  content: "Mujahid ";
+  background-color: chartreuse;
+}
+.peso .peso-el:last-child::after {
+  content: " Mujahid ";
+  background-color: chartreuse;
+}
+
+.bg .bg-c:nth-child(odd) {
+  background-color: gray;
+  text-align: center;
+}
+
+/* h3:last-child {
+  color: white;
+  background-color: black;
+} */
